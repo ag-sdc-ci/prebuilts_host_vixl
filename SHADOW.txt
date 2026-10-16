@@ -1,0 +1,5 @@
+shadow prebuilt repo: vixl (host)
+  arch package: vixl-test-runner v14.0.0_r67-1, Forgejo ag-ci arch repo
+  api-level: universal (host tool)
+  layout: vixl-test-runner-*.pkg.tar.zst at root; extracted bin/vixl-test-runner; Android.bp providing vixl-test-runner & vixl-test-timestamp
+  date: 2026-10-16

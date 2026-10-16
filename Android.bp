@@ -1,0 +1,20 @@
+package {
+    default_applicable_licenses: ["Android-Apache-2.0"],
+}
+
+cc_prebuilt_binary {
+    name: "vixl-test-runner",
+    device_supported: false,
+    host_supported: true,
+    arch: {
+        x86_64: {
+            srcs: ["bin/vixl-test-runner"],
+        },
+    },
+}
+
+cc_library_headers {
+    name: "vixl-test-timestamp",
+    host_supported: true,
+    export_include_dirs: ["include"],
+}
